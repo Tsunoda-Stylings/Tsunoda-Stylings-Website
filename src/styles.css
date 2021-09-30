@@ -104,6 +104,8 @@ p {
   text-align: center;
   max-width: 300px;
 }
+
+.email,
 .email-link,
 .social-link {
   display: flex;
@@ -116,5 +118,14 @@ p {
 .social-link:hover {
   text-decoration: underline;
   color: var(--primary-color);
+  cursor: pointer;
+}
+
+.bg-purple {
+  background: var(--secondary-color);
+}
+.btn-outline-secondary:hover {
+  color: white !important;
+  background: #651e9f !important;
   cursor: pointer;
 }
