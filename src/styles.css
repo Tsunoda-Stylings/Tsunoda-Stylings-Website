@@ -47,7 +47,7 @@ h3 {
 }
 
 .about-link {
-  color: black;
+  color: black !important;
   border: 1px solid var(--primary-color);
   padding: 10px;
   border-radius: 4px;
@@ -56,7 +56,7 @@ h3 {
 }
 
 .about-link:hover {
-  color: white;
+  color: white !important;
   background: var(--primary-color);
   cursor: pointer;
   border: 1px solid var(--secondary-color);
