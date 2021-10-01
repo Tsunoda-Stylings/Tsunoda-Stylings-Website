@@ -29,23 +29,30 @@ h3 {
 }
 
 .navigation-links {
-  display: flex;
   border-radius: 4px;
   text-decoration: none;
   text-transform: capitalize;
   margin-top: 20px;
 }
 
-.navigation-links a {
-  border-radius: 4px;
-  text-decoration: none;
-  text-transform: capitalize;
+.navbar-nav > li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.navbar-brand {
+  font-family: "Ephesis", cursive;
+}
+.navbar-brand:hover {
+  text-decoration: underline;
 }
 
 .about-link {
-  color: var(--primary-color);
+  color: black;
   border: 1px solid var(--primary-color);
   padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 .about-link:hover {
@@ -79,12 +86,6 @@ h3 {
   border: 1px solid var(--primary-color);
 }
 
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-  text-align: center;
-}
 .about-paragraphs {
   display: flex;
   margin: 30px 0;

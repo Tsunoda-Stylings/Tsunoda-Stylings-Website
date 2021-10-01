@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Me</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="src/styles.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
@@ -12,6 +12,7 @@
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script
       src="https://kit.fontawesome.com/ea0aa74a16.js"
       crossorigin="anonymous"
@@ -92,31 +93,33 @@
           blanditiis harum."
         </p>
       </div>
-      <div class="container navigation-links"></div>
+     <div class="navigation-links">
       <nav
         class="
-          navbar navbar-light
-          w-100
-          sticky-bottom
-          bottom-0
-          start-50
-          translate-middle-x
-          px-5
+          navbar navbar-light navbar-expand-sm
         "
         style="background-color: #c197e7"
       >
+      <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+     <a class="navbar-brand" href="index.html">Tsunoda Stylings</a>
+    <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link about-link" href="about.html">About me</a></li>
+        <li class="nav-item"><a class="nav-link about-link" href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link about-link" href="pricing.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link about-link" href="support.html">Support</a></li>
+        <li class="nav-item"><a class="nav-link about-link" href="feedback.html">Customer Testimonials</a></li>
+        <li class="nav-item"><a class="nav-link about-link" href="team.html">Our Team</a></li>
+        <li class="nav-item"><a class="nav-link about-link" href="careers.html">Careers</a></li>
+        <li class="nav-item"><a class="nav-link about-link" href="japanese.html">日本語</a></li>
         
-          <a href="index.html" class="about-link">Back to Homepage</a>
-          <a href="about.html" class="about-link">About me</a>
-          <a href="portfolio.html" class="about-link">Portfolio</a>
-          <a href="pricing.html" class="about-link">Services</a>
-          <a href="support.html" class="about-link">Support</a>
-          <a href="feedback.html" class="about-link">Customer Testimonials</a>
-          <a href="team.html" class="about-link">Our Team</a>
-          <a href="careers.html" class="about-link">Careers</a>
-          <a href="japanese.html" class="about-link">日本語</a>
+          </ul>
+          </div>
         </div>
       </nav>
-    </div>
+      </div>
   </body>
 </html>
