@@ -24,6 +24,8 @@ h1 {
 h2,
 header {
   font-size: 48px;
+  text-align: center;
+  font-family: var(--font-family);
 }
 
 h3 {
@@ -62,7 +64,6 @@ h4 {
   border-radius: 4px;
   text-decoration: none;
   text-transform: capitalize;
-  font-family: var(--font-family);
 }
 .nav-link:hover,
 .about-link:hover {
