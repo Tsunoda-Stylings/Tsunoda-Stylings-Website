@@ -19,7 +19,8 @@ h3 {
 h1 {
   font-size: 96px;
 }
-h2 {
+h2,
+header {
   font-size: 48px;
 }
 
@@ -45,7 +46,7 @@ h3 {
 .navbar-brand:hover {
   text-decoration: underline;
 }
-
+.nav-link,
 .about-link {
   color: black !important;
   border: 1px solid var(--primary-color);
@@ -54,7 +55,7 @@ h3 {
   text-decoration: none;
   text-transform: capitalize;
 }
-
+.nav-link:hover,
 .about-link:hover {
   color: white !important;
   background: var(--primary-color);
