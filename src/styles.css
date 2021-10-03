@@ -2,6 +2,7 @@
   --primary-color: #651e9f;
   --secondary-color: #c197e7;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --font-family: "Ephesis", cursive;
 }
 
 body {
@@ -31,7 +32,9 @@ h3 {
 h4 {
   text-align: center;
 }
-
+.footer {
+  border-bottom: 1px solid #651e9f;
+}
 .navigation-links {
   border-radius: 4px;
   text-decoration: none;
@@ -43,7 +46,8 @@ h4 {
   padding-left: 15px;
   padding-right: 15px;
 }
-.navbar-brand {
+.navbar-brand,
+.end-text {
   font-family: "Ephesis", cursive;
 }
 .navbar-brand:hover {
@@ -133,4 +137,11 @@ p {
   color: white !important;
   background: #651e9f !important;
   cursor: pointer;
+}
+
+.border-class {
+  border: 1px solid #651e9f;
+  margin: 10px;
+  padding: 10px;
+  max-width: 800px;
 }
