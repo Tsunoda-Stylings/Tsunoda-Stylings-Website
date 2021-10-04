@@ -152,12 +152,31 @@ p {
   padding: 10px;
   max-width: 800px;
 }
+.soon,
+.weather {
+  display: block;
+  text-align: center;
+  margin: 5px 20px;
+}
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   h1 {
     font-size: 33px;
   }
   .navbar-brand-title {
+    display: none;
+  }
+}
+
+@media (min-width: 275px) {
+  h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 415px) {
+  .email,
+  .icon {
     display: none;
   }
 }
