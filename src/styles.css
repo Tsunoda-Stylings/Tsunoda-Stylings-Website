@@ -34,6 +34,9 @@ h3 {
 h4 {
   text-align: center;
 }
+.tslogo {
+  max-width: 100px;
+}
 .footer {
   border-bottom: 1px solid #651e9f;
   font-family: var(--font-family);
@@ -42,7 +45,7 @@ h4 {
   border-radius: 4px;
   text-decoration: none;
   text-transform: capitalize;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .navbar-nav > li {
@@ -60,7 +63,6 @@ h4 {
 .about-link {
   color: black !important;
   border: 1px solid var(--primary-color);
-  padding: 10px;
   border-radius: 4px;
   text-decoration: none;
   text-transform: capitalize;
