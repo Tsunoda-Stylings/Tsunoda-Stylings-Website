@@ -171,7 +171,8 @@ p {
 
 @media (min-width: 275px) {
   h1 {
-    font-size: 25px;
+    font-size: 55px;
+    margin: 5px;
   }
 }
 
