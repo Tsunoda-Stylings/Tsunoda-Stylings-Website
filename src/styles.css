@@ -5,15 +5,11 @@
   --font-family: "Ephesis", cursive;
 }
 
-body,
-html {
+body {
   background: #e6e0e0;
-  height: 100%;
-  margin: 0;
-  padding: 0;
 }
 h1,
-h2, 
+h2,
 h3,
 h4,
 header {
@@ -33,7 +29,7 @@ header {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 20px;
 }
 .main-hero {
   padding: 160px 20px 225px 10px;
@@ -98,7 +94,7 @@ h3 {
   margin: 150px 0;
 }
 .enter {
-  color:black !important;
+  color: black !important;
   -webkit-text-fill-color: white;
   -webkit-text-stroke: 1.5px black;
 }
