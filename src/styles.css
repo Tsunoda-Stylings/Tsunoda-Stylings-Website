@@ -1,21 +1,20 @@
 :root {
-  --primary-color: #a76ada;
-  --secondary-color: #d9dad7;
+  --primary-color: #651e9f;
+  --secondary-color: #d8c1d8;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --font-family: "Ephesis", cursive;
 }
 
 body {
-  background: rgb(10, 10, 22) 90.4%;
+  background: #e6e0e0;
 }
 h1,
-h2,
-h3,
+h2 h3,
 h4,
 header {
   text-align: center;
   margin: 0 auto;
-  color: white;
+  color: black;
 }
 
 h1 {
@@ -25,7 +24,6 @@ h1 {
 h2,
 header {
   font-size: 25px;
-  text-align: center;
   font-family: var(--font-family);
 }
 
@@ -34,12 +32,17 @@ h3 {
 }
 
 .hero {
-  padding: 160px 20px;
+  background: #dbd5d5;
+  text-align: center;
+  padding: 130px 20px;
+}
+.hero-homepage {
+  padding: 120px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.hero::before {
+.hero-homepage::before {
   content: "";
   position: absolute;
   top: 0;
@@ -54,18 +57,24 @@ h3 {
 }
 .hero-content {
   position: relative;
-  color: white;
+  color: white !important;
   text-align: center;
   margin: 0.625rem;
 }
 .hero-title {
   font-weight: 600;
   margin-bottom: 0;
+  color: white !important;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 2.5px black;
 }
 .hero-subtitle {
   font-size: 2rem;
   font-weight: 200;
   margin-top: 1rem;
+  color: white !important;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1.5px black;
 }
 .btn-branding {
   background: black;
@@ -80,6 +89,32 @@ h3 {
   color: black;
 }
 
+.btn-branding-outline {
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+.btn-branding-outline:hover {
+  color: black;
+  background: var(--secondary-color);
+}
+.enter {
+  margin: 60px 0 100px;
+}
+.project-description {
+  padding: 50px 20px;
+}
+a {
+  color: white;
+}
+.main {
+  border: 3px solid var(--secondary-color);
+  border-radius: 4px;
+  width: 170px;
+}
+
 .tslogo {
   max-width: 100px;
 }
@@ -88,7 +123,7 @@ h3 {
   font-family: var(--font-family);
 }
 .copyright {
-  color: white;
+  color: black;
 }
 .navigation-links {
   border-radius: 4px;
@@ -111,7 +146,7 @@ h3 {
 }
 .nav-link,
 .about-link {
-  color: white !important;
+  color: black !important;
   border: 1px solid var(--primary-color);
   border-radius: 4px;
   text-decoration: none;
@@ -125,7 +160,7 @@ h3 {
   border: 1px solid var(--secondary-color);
 }
 .navbar-brand-title {
-  color: white !important;
+  color: black !important;
 }
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(167, 106, 218, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -143,7 +178,6 @@ h3 {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
-  padding: 10px;
 }
 .contact-link:hover {
   color: var(--primary-color);
@@ -169,7 +203,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
-  max-width: 600px;
+  max-width: 500px;
   font-family: var(--font-family);
 }
 
@@ -240,5 +274,15 @@ p {
   .email,
   .icon {
     display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .hero {
+    padding: 80px 20px;
   }
 }
