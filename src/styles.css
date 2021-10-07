@@ -282,3 +282,11 @@ p {
     padding: 80px 20px;
   }
 }
+.privacy {
+  margin: 20px auto;
+  max-width: 1000px;
+}
+.privacy-link {
+  color: var(--primary-color);
+  cursor: pointer;
+}
