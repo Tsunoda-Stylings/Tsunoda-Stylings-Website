@@ -243,10 +243,7 @@ p {
 .shecodes-content {
   margin-top: 2%;
 }
-.row {
-  min-height: 30vh;
-  margin: 0 80px;
-}
+
 .primary-color {
   color: var(--primary-color);
 }
