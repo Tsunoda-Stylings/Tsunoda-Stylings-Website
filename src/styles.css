@@ -115,7 +115,7 @@ a {
   max-width: 100px;
 }
 .footer {
-  border-bottom: 1px solid #651e9f;
+  border-bottom: 1px solid var(--primary-color);
   font-family: var(--font-family);
 }
 .copyright {
@@ -229,17 +229,40 @@ p {
 }
 
 .border-class {
-  border: 1px solid #651e9f;
+  border: 1px solid var(--primary-color);
   margin: 10px;
   padding: 10px;
   max-width: 800px;
 }
+.portfolio {
+  font-size: 35px;
+  border: 3px solid var(--secondary-color);
+  border-radius: 4px;
+  width: 170px;
+}
+.shecodes-content {
+  margin-top: 2%;
+}
+.row {
+  min-height: 30vh;
+  margin: 0 80px;
+}
+.primary-color {
+  color: var(--primary-color);
+}
+.main-picture {
+  border: 9px solid var(--secondary-color);
+  border-radius: 4px;
+}
 .soon,
 .kpopmama,
 .weather {
-  display: block;
   text-align: center;
-  margin: 5px 20px;
+  font-size: 20px;
+  border-radius: 15px;
+  line-height: 27px;
+  padding: 10px 30px;
+  transition: all 100ms ease-in-out;
 }
 
 @media (max-width: 1200px) {
@@ -289,4 +312,7 @@ p {
 .privacy-link {
   color: var(--primary-color);
   cursor: pointer;
+}
+.privacy-link:hover {
+  color: black;
 }
