@@ -202,6 +202,12 @@ p {
   max-width: 500px;
   font-family: var(--font-family);
 }
+.job{
+  border: 1px solid var(--primary-color);
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
 
 .email,
 .email-link,
