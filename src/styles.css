@@ -208,6 +208,9 @@ p {
   margin: 0 auto;
   padding: 0 60px;
 }
+.support {
+  list-style: none;
+}
 
 .email,
 .email-link,
