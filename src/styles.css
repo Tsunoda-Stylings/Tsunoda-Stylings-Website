@@ -211,6 +211,9 @@ p {
 .support {
   list-style: none;
 }
+.feedback{
+  max-width: 200px;
+}
 
 .email,
 .email-link,
