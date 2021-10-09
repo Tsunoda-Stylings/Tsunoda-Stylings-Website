@@ -33,9 +33,10 @@ h3 {
 }
 .main-hero {
   padding: 160px 20px 225px 10px;
-  background-image: url(/images/fuji.jpg);
+  background-image: url(/images/fuji3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  opacity: 0.9;
 }
 .hero {
   background: #dbd5d5;
@@ -49,7 +50,7 @@ h3 {
   margin: 0.625rem;
 }
 .hero-title {
-  font-weight: 600;
+  font-weight: 900;
   margin-bottom: 0;
   color: white !important;
   -webkit-text-fill-color: white;
@@ -57,11 +58,9 @@ h3 {
 }
 .hero-subtitle {
   font-size: 2rem;
-  font-weight: 200;
+  font-weight: 500;
   margin-top: 1rem;
-  color: white !important;
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke: 1.5px black;
+  color: black !important;
 }
 .btn-branding {
   background: black;
@@ -95,8 +94,6 @@ h3 {
 }
 .enter {
   color: black !important;
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke: 1.5px black;
 }
 .project-description {
   padding: 50px 20px;
