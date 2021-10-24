@@ -200,5 +200,21 @@
         </footer>
       </div>
     </div>
+    <a href="javascript:" id="return-to-top"><i class="fas fa-arrow-circle-up"></i></a>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+    <script>
+      $(window).scroll(function(){
+        if ($(this).scrollTop() >= 550) {
+          $('#return-to-top').fadeIn(500);
+        } else {
+          $('#return-to-top').fadeOut(500);
+        }
+      });
+        $('#return-to-top').click(function(){
+          $('body,html').animate({
+            scrollTop : 0
+          }, 50);
+        });
+      </script>
   </body>
 </html>
