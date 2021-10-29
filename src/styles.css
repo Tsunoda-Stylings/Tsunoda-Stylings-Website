@@ -642,6 +642,10 @@ img {
   font-size: 35px;
 }
 
+.blog-auth {
+  font-size: 20px;
+}
+
 .blog-p {
   background: white;
   padding: 20px;
@@ -674,4 +678,7 @@ img {
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
+}
+.likebtn-wrapper {
+  margin-left: 10px;
 }
