@@ -264,6 +264,14 @@ p {
   color: var(--primary-color);
   cursor: pointer;
 }
+.blog-link {
+  color: var(--primary-color);
+}
+
+.blog-card {
+  display: block;
+  margin: 0 auto;
+}
 
 .bg-purple {
   background: var(--secondary-color);
@@ -646,13 +654,23 @@ img {
   font-size: 20px;
 }
 
-.blog-p {
-  background: white;
-  padding: 20px;
+.blog-p,
+.blog-p-interview {
+  background-color: #e6e0e0;
   font-size: 18px;
-  line-height: 1.5;
-  max-width: 900px;
+  max-width: 1000px;
+  text-align: left;
+  text-indent: 30px;
+  margin: 0;
+  padding-bottom: 1px;
 }
+.blog-p {
+  line-height: 2;
+}
+.blog-p-interview {
+  line-height: 3;
+}
+
 .blog-cat {
   background-color: var(--primary-color) !important;
 }
