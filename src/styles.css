@@ -670,6 +670,24 @@ img {
 .blog-p-interview {
   line-height: 3;
 }
+.blog-float {
+  margin: 50px auto;
+  padding: 8px;
+}
+
+.blog-top {
+  float: left;
+  width: 400px;
+  height: 360px;
+  padding: 0 25px 0 0;
+}
+.blog-text{
+  text-align: justify;
+  line-height: 2;
+}
+.blog-title {
+  font-size: 33px;
+}
 
 .blog-cat {
   background-color: var(--primary-color) !important;
