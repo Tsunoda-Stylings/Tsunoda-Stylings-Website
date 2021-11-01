@@ -681,9 +681,13 @@ img {
   height: 360px;
   padding: 0 25px 0 0;
 }
-.blog-text{
+.blog-text {
   text-align: justify;
   line-height: 2;
+}
+.interview {
+  text-align: center;
+  font-size: 25px;
 }
 .blog-title {
   font-size: 33px;
