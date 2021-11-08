@@ -722,3 +722,8 @@ img {
 .likebtn-wrapper {
   margin-left: 10px;
 }
+
+.card-feedback {
+  background-color: #e6e0e0;
+  border: 2px solid var(--primary-color);
+}
