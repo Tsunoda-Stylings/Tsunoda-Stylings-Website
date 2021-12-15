@@ -556,6 +556,10 @@ p {
   background: #00acee;
 }
 
+.team-6 .team-social a.social-wb {
+  background: var(--primary-color);
+}
+
 .team-6 .team-social a.social-fb {
   background: #3b5998;
 }
@@ -566,6 +570,10 @@ p {
 
 .team-6 .team-social a.social-in {
   background: #3f729b;
+}
+
+.team-6 .team-social a.social-dr {
+  background: #ea4c89;
 }
 
 .team-6 .team-social a.social-gh {
