@@ -556,6 +556,14 @@ p {
   background: #00acee;
 }
 
+.team-6 .team-social a.social-tree {
+  background: #00ee6b;
+}
+
+.team-6 .team-social a.social-be {
+  background: black;
+}
+
 .team-6 .team-social a.social-wb {
   background: var(--primary-color);
 }
