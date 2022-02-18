@@ -41,6 +41,12 @@ h5 {
   background-repeat: no-repeat;
   opacity: 0.9;
 }
+.hero-shop {
+  background-image: url(/images/promo1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 20px 280px 10px;
+}
 .hero-blog {
   background-image: url(/images/blog.jpg);
   background-size: cover;
