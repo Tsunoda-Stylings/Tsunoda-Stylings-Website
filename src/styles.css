@@ -583,7 +583,7 @@ p {
 }
 
 .team-6 .team-social a.social-in {
-  background: #3f729b;
+  background: #f88195;
 }
 
 .team-6 .team-social a.social-dr {
@@ -592,6 +592,10 @@ p {
 
 .team-6 .team-social a.social-gh {
   background: black;
+}
+
+.team-6 .team-social a.social-pi {
+  background: #E60023;
 }
 
 .team-6 .team-social a:last-child {
