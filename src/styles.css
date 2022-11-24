@@ -558,6 +558,10 @@ p {
   transition: all 0.3s;
 }
 
+.team-6 .team-social a.social-m {
+  background: var(--primary-color);
+}
+
 .team-6 .team-social a.social-tw {
   background: #00acee;
 }
@@ -571,7 +575,7 @@ p {
 }
 
 .team-6 .team-social a.social-wb {
-  background: var(--primary-color);
+  background: goldenrod;
 }
 
 .team-6 .team-social a.social-fb {
