@@ -171,11 +171,15 @@ a {
   margin-top: 10px;
 }
 
+.navbar {
+  margin-bottom: 15px;
+}
+
 .navbar-brand,
 .end-text {
   font-family: var(--font-family);
   font-size: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .navbar-brand:hover {
   text-decoration: underline;
