@@ -175,6 +175,7 @@ a {
 .end-text {
   font-family: var(--font-family);
   font-size: 10px;
+  margin-bottom: 40px;
 }
 .navbar-brand:hover {
   text-decoration: underline;
