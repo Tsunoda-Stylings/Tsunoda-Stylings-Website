@@ -174,7 +174,7 @@ a {
 .navbar-brand,
 .end-text {
   font-family: var(--font-family);
-  font-size: 12px;
+  font-size: 10px;
 }
 .navbar-brand:hover {
   text-decoration: underline;
@@ -186,13 +186,14 @@ a {
   border-radius: 4px;
   text-decoration: none;
   text-transform: capitalize;
+  font-size: 15px;
 }
 .nav-link:hover,
 .about-link:hover {
   color: white !important;
   background: var(--primary-color);
   cursor: pointer;
-  border: 1px solid var(--secondary-color);
+  border: 2px solid var(--secondary-color);
 }
 .navbar-brand-title {
   color: black !important;
