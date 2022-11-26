@@ -89,6 +89,12 @@ h5 {
   text-align: center;
   padding: 130px 20px;
 }
+
+.hero-lounge {
+  background: #dbd5d5;
+  text-align: center;
+  padding: 80px 10px;
+}
 .hero-content {
   position: relative;
   color: white !important;
