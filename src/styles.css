@@ -8,6 +8,21 @@
 body {
   background: #e6e0e0;
 }
+
+.dark hr {
+  color: var(--secondary-color) !important;
+  height: 3px;
+}
+
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark header{
+  color: var(--secondary-color) !important;
+}
+
 h1,
 h2,
 h3,
@@ -90,6 +105,10 @@ h5 {
   padding: 130px 20px;
 }
 
+.dark .hero{
+  background: #111;
+}
+
 .hero-lounge {
   background: #dbd5d5;
   text-align: center;
@@ -167,9 +186,73 @@ a {
   border-bottom: 1px solid var(--primary-color);
   font-family: var(--font-family);
 }
+
+.dark .copyright {
+  color: var(--secondary-color) !important;
+}
 .copyright {
   color: black;
 }
+
+ body.dark {
+  background-color: #292c35;
+}
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+.ball:hover {
+  cursor: pointer !important;
+}
+.label {
+  width: 50px;
+  height: 26px;
+  background-color: var(--primary-color);
+  display: flex;
+  border-radius:50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  transform: scale(1.5);
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+/*  target the elemenent after the label*/
+.checkbox:checked + .label .ball{
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: var(--secondary-color);
+}
+
+.fa-sun {
+  color: #8EC5FC;
+}
+
+.fa-moon:hover {
+  cursor: pointer !important;
+}
+
+.fa-sun:hover {
+  cursor: pointer !important;
+}
+
+.dark .navigation-links {
+color: var(--secondary-color) !important;
+}
+
 .navigation-links {
   border-radius: 4px;
   text-decoration: none;
@@ -190,6 +273,12 @@ a {
 .navbar-brand:hover {
   text-decoration: underline;
 }
+
+.dark .nav-link,
+.about-link {
+  color: var(--secondary-color) !important;
+}
+
 .nav-link,
 .about-link {
   color: black !important;
@@ -219,6 +308,10 @@ a {
 
 .contact {
   font-size: 36px;
+}
+
+.dark .contact-link{
+  color: var(--secondary-color) !important;
 }
 
 .contact-link {
@@ -277,6 +370,12 @@ p {
   max-width: 200px;
 }
 
+.dark .email-link,
+.dark .social-link,
+.dark .workshop{
+  color: var(--secondary-color) !important;
+  text-decoration: none !important;
+}
 .email,
 .email-link,
 .social-link,
@@ -286,6 +385,13 @@ p {
   color: var(--primary-color);
   font-size: 20px;
   text-decoration: none;
+}
+
+.dark .email-link:hover,
+.dark .social-link:hover {
+  text-decoration: underline;
+  color: white !important;
+  cursor: pointer;
 }
 .email-link:hover,
 .social-link:hover {
@@ -396,6 +502,9 @@ p {
 }
 .privacy-link:hover {
   color: black;
+}
+.dark .privacy-link {
+  color: var(--secondary-color) !important;
 }
 .container-team {
   width: 100%;
