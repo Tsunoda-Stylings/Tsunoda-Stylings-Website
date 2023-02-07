@@ -95,7 +95,7 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
                   class="nav-link"
                   href="/workshops.html"
                   title="Tsunoda Stylings Workshops"
-                  >Workshops</a
+                  >Workshop</a
                 >
               </li>
               <li class="nav-item">
@@ -111,7 +111,7 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
                   class="nav-link"
                   href="/feedback.html"
                   title="Tsunoda Stylings Feedback"
-                  >Testimonials</a
+                  >Testimonial</a
                 >
               </li>
               <li class="nav-item">
@@ -119,7 +119,7 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
                   class="nav-link"
                   href="/team.html"
                   title="Tsunoda Stylings Team"
-                  >Our Team</a
+                  >Team</a
                 >
               </li>
               <li class="nav-item">
@@ -157,7 +157,15 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
             </ul>
           </div>
         </div>
-      </nav>
+      <div>
+    <input type="checkbox" class="checkbox" id="checkbox">
+  <label for="checkbox" class="label">
+    <i class="fas fa-moon"></i>
+    <i class='fas fa-sun'></i>
+    <div class='ball'>
+  </label>
+</div>
+</nav>
     </div>
     <div class="hero">
       <h1 class="mb-5">404 Page Not Found</h1>
@@ -208,5 +216,12 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
         );
       });
     </script>
+    <script>
+        const checkbox = document.getElementById('checkbox');
+
+checkbox.addEventListener('change', ()=>{
+  document.body.classList.toggle('dark');
+})
+      </script>
   </body>
 </html>
