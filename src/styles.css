@@ -133,6 +133,14 @@ h5 {
   margin-top: 1rem;
   color: black !important;
 }
+
+.dark .hero-subtitle {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  color: var(--primary-color) !important;
+}
+
 .btn-branding {
   background: black;
   border-radius: 4px;
@@ -141,6 +149,7 @@ h5 {
   line-height: 27px;
   padding: 15px 30px;
 }
+
 .btn-branding:hover {
   background: white;
   color: black;
@@ -153,6 +162,16 @@ h5 {
   border-radius: 4px;
   border: 1px solid black;
 }
+
+.dark .btn-branding-outline {
+  font-size: 18px;
+  color: var(--secondary-color);
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  border: 1px solid var(--secondary-color);
+}
+
 .btn-branding-outline:hover {
   color: black;
   background: var(--secondary-color);
@@ -279,6 +298,14 @@ color: var(--secondary-color) !important;
   color: var(--secondary-color) !important;
 }
 
+.dark .services{
+  color: var(--primary-color) !important;
+}
+
+.dark .support{
+  color: var(--secondary-color) !important;
+}
+
 .nav-link,
 .about-link {
   color: black !important;
@@ -308,6 +335,22 @@ color: var(--secondary-color) !important;
 
 .contact {
   font-size: 36px;
+}
+
+.dark .contact-button{
+  color: black !important;
+}
+
+.dark .contact-button:hover{
+  color: white !important;
+}
+
+.dark .portfolio-button{
+  color: var(--secondary-color) !important;
+}
+
+.dark .portfolio-button:hover{
+  color: white !important;
 }
 
 .dark .contact-link{
@@ -450,6 +493,10 @@ p {
   line-height: 27px;
   padding: 10px 30px;
   transition: all 100ms ease-in-out;
+}
+
+.dark .soon:hover {
+  color: var(--primary-color) !important;
 }
 
 @media (max-width: 1200px) {

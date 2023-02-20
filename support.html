@@ -151,6 +151,14 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
             </ul>
           </div>
         </div>
+        <div>
+    <input type="checkbox" class="checkbox" id="checkbox">
+  <label for="checkbox" class="label">
+    <i class="fas fa-moon"></i>
+    <i class='fas fa-sun'></i>
+    <div class='ball'>
+  </label>
+</div>
       </nav>
     </div>
     <div class="hero">
@@ -179,13 +187,13 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
               enlist our support help! We offer a variety of services.
             </p>
             <ol class="support">
-              <li class="mb-3">
+              <li class="mb-3 support">
                 1. Responsive Help <br />
                 Does your media not look its best on mobile devices no matter
                 how hard you try? Let us know and we would be happy to take a
                 look at your code and see if we can help fix it!
               </li>
-              <li>
+              <li class="support">
                 2. Media not working? <br />
                 Spotify? YouTube? Social media feeds just not popping up right
                 on your site? Let us know and we would be happy to take a look
@@ -203,7 +211,7 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
       </h2>
       <div class="d-flex justify-content-sm email">
         <i class="far fa-envelope"></i>&nbsp;
-        <small class="email">Email us at</small> &nbsp;
+        <small class="email-link">Email us at</small> &nbsp;
         <a
           href="mailto:support@tsunodastylings.com"
           class="email-link"
@@ -264,5 +272,12 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
         );
       });
     </script>
+    <script>
+        const checkbox = document.getElementById('checkbox');
+
+checkbox.addEventListener('change', ()=>{
+  document.body.classList.toggle('dark');
+})
+      </script>
   </body>
 </html>

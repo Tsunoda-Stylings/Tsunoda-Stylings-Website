@@ -41,10 +41,9 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
         <div class="container">
            <a class="navbar-brand" href="/"
             ><img
-              src="images/Original on Transparent.png"
-              alt="Tsunoda Stylings Logo"
+              
               class="tslogo"
-              title="Tsunoda Stylings Logo"
+              
           /></a>
           <button
             class="navbar-toggler custom-toggler"
@@ -59,6 +58,9 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/" title="Contact Us">Home</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="/contact.html" title="Contact Us">Contact</a>
               </li>
@@ -115,6 +117,14 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
             </ul>
           </div>
         </div>
+         <div>
+    <input type="checkbox" class="checkbox" id="checkbox">
+  <label for="checkbox" class="label">
+    <i class="fas fa-moon"></i>
+    <i class='fas fa-sun'></i>
+    <div class='ball'>
+  </label>
+</div>
       </nav>
     </div>
     <div class="hero">
@@ -143,7 +153,7 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
     <div class="card">
       <img src="/images/bfl logo.png" class="card-img-top" alt="BFL">
       <div class="card-body">
-        <h5 class="card-title">Built From Love Clothing</h5>
+        <h5 class="card-title services">Built From Love Clothing</h5>
         <p class="card-text">"Very detailed communication, was amazing great to work with. I think Jasmine and her team are the best, love their work."</p>
       </div>
     </div>
@@ -152,7 +162,7 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
     <div class="mt-2 card">
       <img src="/images/ebonyj.png" class="card-img-top" alt="Ebony J">
       <div class="card-body">
-        <h5 class="card-title">Ebony J Media</h5>
+        <h5 class="card-title services">Ebony J Media</h5>
         <p class="card-text">"“I am very satisfied with my service. Very professional, efficient, and communication is exceptional. I will continue to do business with her because I love Jasmine’s work, customer service, and attention to detail. I value her opinion; she is definitely an expert, and working with her has helped my biz."</p>
       </div>
     </div>
@@ -191,12 +201,12 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
         <h5>Whether you used our live chat feature, emailed us about an inquiry or completed a project with us! <br/> We would love to hear from you.</h5>
         <form class="border-class mx-auto">
         <div class="d-flex justify-content-sm email">
-          <i class="far fa-envelope"></i> &nbsp; <small class="email"> Email us at </small>&nbsp; <a href="mailto:feedback@tsunodastylings.com" class="email-link" title="contact Tsunoda Stylings"
+          <i class="far fa-envelope"></i> &nbsp; <small class="email-link"> Email us at </small>&nbsp; <a href="mailto:feedback@tsunodastylings.com" class="email-link" title="contact Tsunoda Stylings"
             >feedback@tsunodastylings.com
           </a> 
           </div>
           <br>
-          <div class="d-flex justify-content-center email">or fill out the form below!</div> 
+          <div class="d-flex justify-content-center email-link">or fill out the form below!</div> 
       
           <div data-paperform-id="tsunodastylings2"></div><script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
           </div>
@@ -233,6 +243,13 @@ s0.parentNode.insertBefore(s1,s0);
             scrollTop : 0
           }, 50);
         });
+      </script>
+      <script>
+        const checkbox = document.getElementById('checkbox');
+
+checkbox.addEventListener('change', ()=>{
+  document.body.classList.toggle('dark');
+})
       </script>
   </body>
 </html>

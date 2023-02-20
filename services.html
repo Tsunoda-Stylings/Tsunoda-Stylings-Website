@@ -121,6 +121,12 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
             </ul>
           </div>
         </div>
+        <input type="checkbox" class="checkbox" id="checkbox">
+  <label for="checkbox" class="label">
+    <i class="fas fa-moon"></i>
+    <i class='fas fa-sun'></i>
+    <div class='ball'>
+  </label>
       </nav>
     </div>
        <div class="hero">
@@ -410,7 +416,7 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
                         <div class="col-md-6">
                             <div class="blog-item bg-light rounded overflow-hidden">
                                 <div class="p-4">
-                                    <h4 class="mb-3">Business Starter package</h4>
+                                    <h4 class="mb-3 services">Business Starter package</h4>
                                       <ul>
                                         <li>Wireframe Prototypes</li>
                                         <li>UX/UI Design</li>
@@ -427,7 +433,7 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
                         <div class="col-md-6">
                             <div class="blog-item bg-light rounded overflow-hidden">
                                 <div class="p-4">
-                                    <h4 class="mb-3">Business Acceleration Package</h4>
+                                    <h4 class="mb-3 services">Business Acceleration Package</h4>
                                       <ul>
                                         <li>Wireframe Prototypes</li>
                                         <li>UX/UI Design</li>
@@ -447,7 +453,7 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
                         <div class="col-md-6">
                             <div class="blog-item bg-light rounded overflow-hidden">
                                 <div class="p-4">
-                                    <h4 class="mb-3">International Business Package</h4>
+                                    <h4 class="mb-3 services">International Business Package</h4>
                                       <ul>
                                         <li>Wireframe Prototypes</li>
                                         <li>UX/UI Design</li>
@@ -466,7 +472,7 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
                         <div class="col-md-6">
                             <div class="blog-item bg-light rounded overflow-hidden">
                                 <div class="p-4">
-                                    <h4 class="mb-3">Global Enterprise Package</h4>
+                                    <h4 class="mb-3 services">Global Enterprise Package</h4>
                                       <ul>
                                         <li>Wireframe Prototypes</li>
                                         <li>UX/UI Design</li>
@@ -489,7 +495,7 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
                         <div class="col-md-6">
                             <div class="blog-item bg-light rounded overflow-hidden">
                                 <div class="p-4">
-                                    <h4 class="mb-3">For Advertising and Marketing Packages</h4>
+                                    <h4 class="mb-3 services">For Advertising and Marketing Packages</h4>
                                       <p>Please schedule a consultation below </p>
                                 </div>
                             </div>
@@ -497,7 +503,7 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
                         <div class="col-md-6">
                             <div class="blog-item bg-light rounded overflow-hidden">
                                 <div class="p-4">
-                                    <h4 class="mb-3">For Event Planning and Travel Arrangement</h4>
+                                    <h4 class="mb-3 services">For Event Planning and Travel Arrangement</h4>
                                       <p>Please schedule a consultation below </p>
                                 </div>
                             </div>
@@ -505,7 +511,7 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
                         <div class="col-md-6">
                             <div class="blog-item bg-light rounded overflow-hidden">
                                 <div class="p-4">
-                                    <h4 class="mb-3">For Translation</h4>
+                                    <h4 class="mb-3 services">For Translation</h4>
                                       <p>Please schedule a consultation below </p>
                                 </div>
                             </div>
@@ -518,7 +524,7 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
         <i class="fas fa-sitemap icon"></i>
       </h2>
       <div class="d-flex justify-content-sm email">
-        <i class="far fa-envelope"></i> &nbsp; <small class="email">Email us at</small> &nbsp;
+        <i class="far fa-envelope email-link"></i> &nbsp; <small class="email-link">Email us at</small> &nbsp;
         <a href="mailto:billing@tsunodastylings.com" class="email-link" title="contact Tsunoda Stylings"
           >inquiries@tsunodastylings.com
         </a>
@@ -526,12 +532,12 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
      <div class="about-paragraphs">
       <p>
           Schedule a consultation here:
-          <a href="https://www.tsunodastylings.com/consultations/schedule" class="nav-link about-link"
+          <a href="https://www.tsunodastylings.com/consultations/schedule" class="nav-link about-link contact-button"
           >Consultation
         </a>
         <br/>
           Download our media kit here:
-          <a href="https://www.tsunodastylings.com/mediakit" class="nav-link about-link"
+          <a href="https://www.tsunodastylings.com/mediakit" class="nav-link about-link contact-button"
           >Media Kit
         </a>
       </p>
@@ -569,6 +575,13 @@ s0.parentNode.insertBefore(s1,s0);
             scrollTop : 0
           }, 50);
         });
+      </script>
+      <script>
+        const checkbox = document.getElementById('checkbox');
+
+checkbox.addEventListener('change', ()=>{
+  document.body.classList.toggle('dark');
+})
       </script>
   </body>
 </html>
