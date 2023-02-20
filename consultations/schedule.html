@@ -45,10 +45,9 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
         <div class="container">
           <a class="navbar-brand" href="/"
             ><img
-              src="images/Original on Transparent.png"
-              alt="Tsunoda Stylings Logo"
+              
               class="tslogo"
-              title="Tsunoda Stylings Logo"
+              
           /></a>
           <button
             class="navbar-toggler custom-toggler"
@@ -63,6 +62,11 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
+               <li class="nav-item">
+                <a class="nav-link" href="/" title="Contact Us"
+                  >Home</a
+                >
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="/contact.html" title="Contact Us"
                   >Contact</a
@@ -151,6 +155,14 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
             </ul>
           </div>
         </div>
+        <div>
+    <input type="checkbox" class="checkbox" id="checkbox">
+  <label for="checkbox" class="label">
+    <i class="fas fa-moon"></i>
+    <i class='fas fa-sun'></i>
+    <div class='ball'>
+  </label>
+</div>
       </nav>
       </div>
       <div class="hero">
@@ -165,7 +177,7 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
         <i class="fas fa-sitemap icon"></i>
       </h2>
       <div class="d-flex justify-content-sm email">
-        <i class="far fa-envelope"></i> &nbsp; <small class="email">Email us at</small> &nbsp;
+        <i class="far fa-envelope"></i> &nbsp; <small class="email-link">Email us at</small> &nbsp;
         <a href="mailto:billing@tsunodastylings.com" class="email-link" title="contact Tsunoda Stylings"
           >inquiries@tsunodastylings.com
         </a>
@@ -173,14 +185,14 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
     <div class="about-paragraphs">
           <p><span>Schedule a website consultation</span> <br/><br/>
             Need help creating a new website or want to refresh the one you have now? Contact us today and let us help you grow your brand. <br/><br/>
-           <a href="https://www.tsunodastylings.com/consultations/websiteconsultation" class="nav-link" target="_blank" title="website consultation">Schedule a website consultation</a>
+           <a href="https://www.tsunodastylings.com/consultations/websiteconsultation" class="nav-link contact-button" target="_blank" title="website consultation">Schedule a website consultation</a>
           </p>
         </div>
         <h4 class="mb-4"> Special Services</h4>
         <div class="about-paragraphs">
           <p><span>Tsunoda Stylings Event Planning</span> <br/><br/>
             Are you planning an event that needs to be posted on the new website we just built for you? A bit of charity work you want to announce? Or perhaps you want help organizing, promoting, budgeting, or even advertising the event? <br/><br/>
-           <a href="https://www.tsunodastylings.com/consultations/eventconsultation" class="nav-link" target="_blank" title="events consultation"
+           <a href="https://www.tsunodastylings.com/consultations/eventconsultation" class="nav-link contact-button" target="_blank" title="events consultation"
           >Schedule an event consultation
         </a>
           </p>
@@ -188,13 +200,13 @@ var MemberSpace = window.MemberSpace || {"subdomain":"tsunodastylings"};
         <div class="about-paragraphs">
           <p><span>Tsunoda Stylings Brand Marketing Packages</span> <br/><br/>
             Need help marketing your personal or professional brand? Contact us today! Whether you are a musician looking to tour or an influencer needing more followers. We can help! <br/><br/>
-           <a href="https://www.tsunodastylings.com/consultations/marketingconsultation" class="nav-link" target="_blank" title="marketing consultation">Schedule a Marketing consultation</a>
+           <a href="https://www.tsunodastylings.com/consultations/marketingconsultation" class="nav-link contact-button" target="_blank" title="marketing consultation">Schedule a Marketing consultation</a>
           </p>
         </div>
         <div class="about-paragraphs">
           <p><span>Tsunoda Stylings Translation Packages</span> <br/><br/>
             Need help translating your personal or professional brand? Contact us today! We offer translations in 10+ languages! <br/><br/>
-           <a href="https://www.tsunodastylings.com/consultations/translationconsultation" class="nav-link" target="_blank" title="translation consultation">Schedule a Translation consultation</a>
+           <a href="https://www.tsunodastylings.com/consultations/translationconsultation" class="nav-link contact-button" target="_blank" title="translation consultation">Schedule a Translation consultation</a>
           </p>
         </div>
       
@@ -234,6 +246,13 @@ s0.parentNode.insertBefore(s1,s0);
             scrollTop : 0
           }, 50);
         });
+      </script>
+      <script>
+        const checkbox = document.getElementById('checkbox');
+
+checkbox.addEventListener('change', ()=>{
+  document.body.classList.toggle('dark');
+})
       </script>
   </body>
 </html>
