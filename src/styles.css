@@ -69,32 +69,46 @@ h5 {
   padding: 200px 20px 200px 10px;
 }
 .hero-blog-design {
-  background-image: url(/images/designhero.jpg);
+  background-image: url(/images/2024/web\ design.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 200px 20px 200px 10px;
 }
 .hero-blog-dev {
-  background-image: url(/images/dev.jpg);
+  background-image: url(/images/2024/web\ dev.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 200px 20px 200px 10px;
   opacity: 0.8;
 }
 .hero-blog-current {
-  background-image: url(/images/plans.jpg);
+  background-image: url(/images/2024/current\ projects.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 20px 200px 10px;
+}
+
+.hero-blog-newsletter {
+  background-image: url(/images/2024/newsletter.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 20px 200px 10px;
+}
+
+.hero-blog-tech {
+  background-image: url(/images/2024/Tech\ News\ Blog.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 200px 20px 200px 10px;
 }
 .hero-blog-news {
-  background-image: url(/images/news.jpg);
+  background-image: url(/images/2024/company\ news.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 200px 20px 200px 10px;
 }
 .hero-blog-thanks {
-  background-image: url(/images/thanks.jpg);
+  background-image: url(/images/2024/client\ highlights.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 200px 20px 200px 10px;
